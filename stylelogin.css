@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(noise.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.all-items {
+     width: 350px;
+     background: transparent;
+     color: white;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     padding: 30px 40px;
+     border: 3px solid rgb(255, 255, 255, .2);
+     backdrop-filter: blur(5px);
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.278);
+}
+
+.all-items h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.all-items .item-box {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 25px 0;
+    position: relative;
+}
+
+.item-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 3px solid rgba(255, 255, 255, 0.278);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px 10px;
+}
+
+.all-items ::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.all-items i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.all-items .remember-pass {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: -15px 0 15px;
+}
+
+.remember-pass label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-pass a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.remember-pass a:hover {
+    text-decoration: underline;
+    color: rgb(12, 195, 52);
+}
+
+.all-items .btn {
+    width: 100%;
+    height: 50%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.278);
+    font-weight: 600;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 5px;
+}
+
+.all-items .register-link {
+    font-size: 13px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.register-link p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    color: rgb(12, 195, 52) ;
+}
+
+.container-footer {
+    background: white;
+    text-align: center;
+    height: 4vh;
+}
+
+.h3-footer {
+    text-align: center;
+    
+}
